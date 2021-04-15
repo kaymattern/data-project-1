@@ -13,3 +13,4 @@ The purpose of this project is to create an API that will get random advice rela
 5. Once you open the link, there should be some instrutions in JSON (the same instructions as below).
 6. There are two ways to execute the API: In the search bar, you can type in "/advice/{word}" and input the word of your choice to receive some advice relating to the word. Or, in the search bar, you can type "/docs" and pull up FastAPI. Then, click on "Try it Out" type in a word, and hit "Execute".
 7. There are some words with no related advice. If you type in a word with no advicce, an Internal Server Error will result. If this happens, choose a new word and try again!
+8. In order to post to the Discord site, uncomment line 29 in the Python file that reads `response = requests.post(link, json = data)`. 
